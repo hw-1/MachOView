@@ -995,7 +995,7 @@ _hex2int(char const * a, uint32_t len)
   {
     @try
     {
-      [self createDataInCodeEntriesNode:dataInCodeEntriesNode
+      [self createDataInCodeEntries64Node:dataInCodeEntriesNode
                                 caption:(lastNodeCaption = @"Dices")
                                location:dataInCodeEntriesNode.dataRange.location
                                  length:dataInCodeEntriesNode.dataRange.length];

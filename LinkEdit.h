@@ -90,5 +90,10 @@
                                   length:(uint32_t)length;
 
 
+- (MVNode *) createDataInCodeEntries64Node:parent
+                                   caption:(NSString *)caption
+                                  location:(uint32_t)location
+                                    length:(uint32_t)length;
+
 @end
 
